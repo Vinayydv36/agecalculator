@@ -1,0 +1,139 @@
+body{  
+    font-family: Arial, Helvetica, sans-serif;  
+    background-color: #FFFCF7;  
+    font-size: 15px;  
+    line-height: 1.5;  
+    padding: 0;  
+    margin: 0;  
+   }  
+   /*birthday wishing message */
+   .modal {
+     display: none;
+     position: fixed;
+     z-index: 1;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     overflow: auto;
+     background-color: rgba(0,0,0,0.4);
+   }
+   
+   .modal-content {
+     background-color: white;
+     margin: 15% auto;
+     padding: 20px;
+     border: 1px solid #888;
+     width: 80%;
+   }
+   
+   .close {
+     color: #aaa;
+     float: right;
+     font-size: 28px;
+     font-weight: bold;
+   }
+   
+   .close:hover,
+   .close:focus {
+     color: black;
+     text-decoration: none;
+     cursor: pointer;
+   }
+   /*end*/
+   
+   * {  
+    box-sizing: border-box;  
+   }  
+   .container{  
+    width:520px;  
+    height: auto;  
+    margin: 100px auto;  
+    background-color:#FFE4B5;  
+    border-radius: 25px;  
+   }  
+   .base{  
+    width: 100%;  
+    margin: 0;  
+    overflow: hidden;  
+    display: block;  
+    float: none;  
+   }  
+   .block{  
+    width: 135px;  
+    padding: 5px 20px;  
+    margin-left: 20px;  
+    display: inline-block;  
+    float: left;  
+   } 
+
+   /*container top */ 
+   .base h4{  
+    font-size: 26px;  
+    text-align: center;  
+    font-family: sans-serif;  
+    font-weight: normal;  
+    margin-top: 0px;  
+    box-shadow: 0px 2px hsl(16, 100%, 66%);  
+    background: #ADD8E6;  
+    font-size: 34px;  
+    color: #FF7F50;  
+   } 
+    
+   .title{  
+    font-size: 20px;  
+    text-align: left;  
+    font-family: sans-serif;  
+    font-weight: normal;  
+    line-height: 0.5;  
+    letter-spacing: 0.5px;  
+    word-spacing: 2.7px;  
+    color: #FF7F50;  
+   }  
+   input[type=text] {  
+    width: 140px;  
+    margin: auto;  
+    outline: none;  
+    min-height: 50px;  
+    border: 2px solid #1073d0;  
+    padding: 12px;  
+    background-color: #D3D3D3;  
+     border-radius: 2px;  
+     color: #FF7F50;  
+     font-size: 17px;  
+   }  
+   input[type=text]:focus{  
+    background-color: #ffffE0;  
+    border: 2px solid orange;  
+    outline: none;  
+   }  
+   input[type=button]{  
+    width: 150px;  
+    margin-left: 35%;  
+    margin-top: 40px;  
+    outline: none;  
+    border: none;  
+    border-radius: 2px;  
+    background-color: #0761b6;  
+    color: #ffffff;  
+    padding: 14px 16px;  
+    text-align: center;  
+    font-size: 16px;  
+   }  
+   input[type=button]:hover{  
+    background-color: #003669;  
+   }  
+   #age{  
+    display: block;  
+    margin: 10px;  
+    margin-top: 35px;  
+    padding: 10px;  
+    padding-bottom: 20px;  
+    overflow: hidden;  
+    font-family: verdana;  
+    font-size: 23px;  
+    font-weight: normal;  
+    line-height: 1.5;  
+    word-spacing: 2.7px;  
+    color: #FFD700;  
+   }  
